@@ -27,31 +27,32 @@ export function About() {
   ]
 
   const coursework = [
-    "Data Science",
-    "Machine Learning",
+    "Molecular and Cellular Neuroscience",
     "Signal Processing",
-    "Algorithms",
-    "fMRI",
-    "Cellular Neuroscience",
     "Molecular Neuroethology",
-    "Neural Circuits",
+    "Machine Learning",
+    "Neural Systems and Circuits",
+    "FMRI Analysis",
+    "BioPsychology",
+    "Applied Statistics",
   ]
 
   const skills = [
-    "Deep Learning",
-    "Machine Learning",
-    "NLP",
     "Python",
-    "OpenAI",
-    "Tensorflow",
-    "Flutter",
-    "Java",
-    "C",
-    "GCP",
-    "AWS",
-    "Jira",
-    "Data Science",
+    "C++",
+    "MATLAB",
+    "PyTorch",
+    "JAX",
+    "Transformers",
+    "Diffusion Models",
+    "Continual Learning",
+    "Evolutionary Algorithms",
+    "MEG/EEG Analysis",
+    "Spike Encoding Models",
+    "Hippocampal Architectures",
+    "Docker",
     "Linux",
+    "Git",
   ]
 
   return (
@@ -78,7 +79,7 @@ export function About() {
             <p className="text-xl leading-relaxed">
               I'm a Computer Science student at the{" "}
               <span className="text-foreground font-semibold">University of Maryland, College Park</span>, pursuing a
-              B.S. in Computer Science with Honors (Machine Learning), Neurotechnology, and Computational Finance.
+              B.Sc. in Computer Science Honours (Machine Learning) and Neurotechnology (Individual Studies), with a minor in Computational Finance.
             </p>
 
             <p>

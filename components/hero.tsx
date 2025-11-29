@@ -70,18 +70,21 @@ export function Hero() {
             <Button
               size="lg"
               className="w-full sm:w-auto gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-all hover:scale-105 active:scale-95"
+              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             >
               <Mail className="h-5 w-5" />
               Get in Touch
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="w-full sm:w-auto gap-2 border-2 border-primary/50 hover:border-primary hover:bg-primary/10 text-foreground font-semibold text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 transition-all hover:scale-105 active:scale-95 bg-transparent"
-            >
-              <FileText className="h-5 w-5" />
-              View CV
-            </Button>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Button
+                size="lg"
+                variant="outline"
+                className="w-full gap-2 border-2 border-primary/50 hover:border-primary hover:bg-primary/10 text-foreground font-semibold text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 transition-all hover:scale-105 active:scale-95 bg-transparent"
+              >
+                <FileText className="h-5 w-5" />
+                View CV
+              </Button>
+            </a>
           </div>
 
           <div

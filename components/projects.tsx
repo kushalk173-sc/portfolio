@@ -7,25 +7,32 @@ import Link from "next/link"
 export function Projects() {
   const topProjects = [
     {
-      title: "Blindspot",
-      award: "Bitcamp 2023 - 1st Place Winner",
+      title: "Solyd (Clinical Intelligence Platform)",
+      award: "HackMIT 2025 - Winner 1st Place (Rox)",
       description:
-        "Created a prototype of image-recognition glasses for the visually impaired using YOLO object detection algorithm with optimized parameters and facial recognition.",
-      tags: ["Computer Vision", "YOLO", "Hardware Integration"],
+        "Engineered an AI pipeline to convert unstructured medical text into a queryable knowledge graph for real-time clinical decision support. Built the agent-mapping subsystem.",
+      tags: ["AI Pipeline", "Knowledge Graph", "Healthcare"],
     },
     {
-      title: "ThoughtWheels",
-      award: "TreeHacks 2024 - Top 10/500 Projects",
+      title: "ThoughtWheels (BCI-Controlled Wheelchair)",
+      award: "TreeHacks 2024 - Top 10 Finalist",
       description:
-        "Smart wheelchair controlled by brain waves for people with severe mobility impairment. Designed signal processing algorithms for EEG signals from Muse 2 and developed robotic control system.",
+        "Developed a Brain-Computer Interface (BCI) using Muse 2 EEG signals to control a robotic wheelchair. Designed Python-based signal processing pipelines to decode micro-movements and motor imagery from raw EEG data for precise navigation control.",
       tags: ["BCI", "Signal Processing", "Robotics"],
     },
     {
-      title: "MediChain",
-      award: "HackMIT 2024 - Best Blockchain Hack",
+      title: "Blindspot (Assistive Computer Vision)",
+      award: "Bitcamp 2023 - Winner 1st Place (Overall)",
       description:
-        "Blockchain-based platform for secure patient data management. Integrated blockchain with Neo4j knowledge graphs for tamper-proof storage and decentralized medical records.",
-      tags: ["Blockchain", "Healthcare", "Neo4j"],
+        "Developed assistive glasses for the visually impaired utilizing optimized YOLO-based object detection and low-latency embedded vision algorithms.",
+      tags: ["Computer Vision", "YOLO", "Embedded Systems"],
+    },
+    {
+      title: "MediChain (Decentralized Health Data)",
+      award: "HackMIT 2024 - Winner Best Blockchain Hack",
+      description:
+        "Blockchain network with decentralized storage to securely and efficiently share patient data",
+      tags: ["Blockchain", "Healthcare", "Decentralized Storage"],
     },
   ]
 

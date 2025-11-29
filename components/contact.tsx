@@ -152,12 +152,6 @@ export function Contact() {
           </Card>
         </div>
 
-        <div className="mt-24 pt-8 border-t border-border/50 text-center space-y-2">
-          <p className="text-sm text-muted-foreground">© 2025 Kushal Kapoor. All rights reserved.</p>
-          <p className="text-xs text-muted-foreground">
-            Designed and built with passion for advancing neuro-inspired artificial intelligence
-          </p>
-        </div>
       </div>
     </section>
   )

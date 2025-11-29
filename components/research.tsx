@@ -8,13 +8,13 @@ export function Research() {
       lab: "Perception and Robotics Group",
       institution: "University of Maryland, College Park",
       role: "Undergraduate Research Assistant",
-      period: "January 2025 - Present",
+      period: "March 2025 – Present",
       location: "College Park, MD",
       highlights: [
-        "Developed and published HiCL, a hippocampal-inspired continual learning algorithm with state-of-the-art retention at 5% compute",
-        "Conducting Honors thesis research on improved evolutionary algorithms with Prof. Yiannis Aloimonos",
-        "Attended advanced seminars and guest lectures in neuro-inspired AI, deepening interdisciplinary expertise",
-        "Fine-tuned Atlantis to recreate underwater scenes using components from SONAR emissions and text descriptions",
+        "Led development of HiCL, a hippocampal-inspired continual learning architecture using DG-gated Mixture-of-Experts with sparse pattern separation (top-k sparsity at 5%) and cosine similarity routing to prototypes, achieving over 95% routing accuracy without explicit gating networks under Prof. Yiannis Aloimonos.",
+        "Designed a dual-phase training strategy integrating Elastic Weight Consolidation, prioritized replay, and contrastive losses for memory consolidation, yielding robust performance on Split CIFAR-10 (92.38% Task-IL accuracy) and Split Tiny-ImageNet (62.76% Task-IL) at 5% of baseline compute costs (e.g., 38.21 MFLOPs for small model).",
+        "Conducting an Honors thesis on high-dimensional vectors and embeddings. Attended advanced seminars and guest lectures in neuro-inspired AI to deepen interdisciplinary expertise.",
+        "Finetuned Atlantis to recreate underwater scenes using components from SONAR emissions and text descriptions.",
       ],
       tags: ["Continual Learning", "Evolutionary Algorithms", "Computer Vision"],
     },
@@ -22,12 +22,12 @@ export function Research() {
       lab: "Shamma Lab",
       institution: "University of Maryland, College Park",
       role: "Undergraduate Research Assistant",
-      period: "March 2024 - November 2024",
+      period: "March 2024 – November 2024",
       location: "College Park, MD",
       highlights: [
-        "Worked on deciphering MEG data into words under Dr. Shibab Shamma",
-        "Associated words as spikes and correlated with MEG data",
-        "Trained ChatGPT to predict spikes and spoken words from neural signals",
+        "Developed a computational pipeline to decode speech from MEG neural recordings under Dr. Shihab Shamma",
+        "Implemented spike-based encoding models to map temporal neural patterns to individuals reading poems.",
+        "Fine-tuned GPT to predict neural response patterns from speech stimuli",
       ],
       tags: ["MEG", "Neural Decoding", "NLP"],
     },
@@ -35,12 +35,12 @@ export function Research() {
       lab: "Genome Computing Lab in FIRE",
       institution: "University of Maryland, College Park",
       role: "Undergraduate Research Assistant",
-      period: "August 2022 - December 2023",
+      period: "August 2022 – December 2023",
       location: "College Park, MD",
       highlights: [
-        "Developed 3D models of nucleosome-decorated DNA fragments to investigate linker sequence effects",
-        "Analyzed sequence-dependent DNA-protein interactions in lac repressor loops",
-        "Managed large-scale biological data processing with Python scripts",
+        "Developed 3D models of nucleosome-decorated DNA fragments to investigate linker sequence effects on structural conformation and rigidity, utilizing 3DNA, Python and PyMOL for optimization and visualization of datasets from the Todolli database.",
+        "Analyzed sequence-dependent DNA-protein interactions in lac repressor loops, to reveal multistate variance patterns and binding site influences.",
+        "Managed large-scale biological data processing, implementing scripts for data retrieval, manipulation, and clustering",
         "Presented research poster 'Linker DNA Sequence Effects on Nucleosome Orientation' at FIRE Research Day",
       ],
       tags: ["Computational Biology", "Structural Biology", "Data Science"],
@@ -119,13 +119,26 @@ export function Research() {
           <div className="grid md:grid-cols-2 gap-4">
             <Card className="p-6 glass-card hover:border-primary/50 hover:bg-card/80 transition-all duration-300 hover:-translate-y-1 glow-on-hover">
               <div className="space-y-3">
+                <Badge className="bg-primary/20 text-primary border-primary/30">Upcoming</Badge>
+                <h4 className="text-lg font-semibold text-foreground">HiCL: Hippocampal Inspired Continual Learning</h4>
+                <p className="text-sm text-muted-foreground">
+                  The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26) • January 2026
+                </p>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Poster Presentation
+                </p>
+              </div>
+            </Card>
+
+            <Card className="p-6 glass-card hover:border-primary/50 hover:bg-card/80 transition-all duration-300 hover:-translate-y-1 glow-on-hover">
+              <div className="space-y-3">
                 <Badge className="bg-primary/20 text-primary border-primary/30">Invited Talk</Badge>
                 <h4 className="text-lg font-semibold text-foreground">HiCL: Hippocampal Inspired Continual Learning</h4>
                 <p className="text-sm text-muted-foreground">
-                  DEVCOM ARL, University of Tennessee, Knoxville • July 2025
+                  DEVCOM Army Research Laboratory, University of Tennessee, Knoxville • July 2025
                 </p>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Presented to graduate students, lab members, and SURF students
+                  Presented to Professors, Senior faculty, graduate students, lab members and SURF students
                 </p>
               </div>
             </Card>
